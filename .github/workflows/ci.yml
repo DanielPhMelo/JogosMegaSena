@@ -97,7 +97,7 @@ jobs:
         run: mvn clean package
 
       - name: Upload artifact
-        uses: actions/upload-artifact@v2
+        uses: actions/upload-artifact@v3
         with:
           name: meu-aplicativo-console
           path: target/*.jar
