@@ -50,7 +50,7 @@ jobs:
           SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
         run: |
           mvn clean verify sonar:sonar \
-          -Dsonar.projectKey=seu-usuario_nome-do-repositorio \
-          -Dsonar.organization=seu-usuario \
+          -Dsonar.projectKey=DanielPhMelo_JogosMegaSena \
+          -Dsonar.organization=danielphmelo \
           -Dsonar.host.url=https://sonarcloud.io \
           -Dsonar.login=${{ secrets.SONAR_TOKEN }}
